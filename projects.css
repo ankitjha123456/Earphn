@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    background-color: rgb(95, 179, 253);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: rgb(243, 243, 243);
+    font-weight: 400;
+}nav ul li{
+    padding: 0px 15px;
+}
+.logo img {
+    width: 55px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+
+}
+h1{
+    font-family: 'Abril Fatface';
+    font-weight: lighter;
+    letter-spacing: 1;
+}
+.container{
+    min-height: 65%;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round';
+    display: flex;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 12px;
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    color: aliceblue;
+    
+}
+
+a:hover{
+    background-color:rgb(110, 132, 255)
+    
+}
+#progressbar{
+    width: 337px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(180, 214, 244);
+    width: 50vh;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timeStamp {
+    margin: 0px 10px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+    
